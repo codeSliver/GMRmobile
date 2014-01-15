@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Australia, Sydney</string>
+	<string>Australia, Melbourne</string>
+	<string>Australia, Newcastle</string>
+	<string>Australia, Central Coast</string>
+	<string>Australia, Wollongong</string>
+	<string>Australia, Albury</string>
+	<string>Australia, Maitland</string>
+	<string>Australia, Wagga Wagga</string>
+	<string>Australia, Port Macquarie</string>
+	<string>Australia, Tamworth</string>
+	<string>Australia, Orange</string>
+	<string>Australia, Dubbo</string>
+	<string>Australia, Lismore</string>
+	<string>Australia, Bathurst</string>
+	<string>Australia, Coffs Harbour</string>
+	<string>Australia, Richmond</string>
+	<string>Australia, Nowra</string>
+	<string>Australia, Canberra</string>
+	<string>Australia, Darwin</string>
+	<string>Australia, Alice Springs</string>
+	<string>Australia, Brisbane</string>
+	<string>Australia, Gold Coast</string>
+	<string>Australia, Sunshine Coast</string>
+	<string>Australia, 	Townsville</string>
+	<string>Australia, Cairns</string>
+	<string>Australia, Toowoomba</string>
+	<string>Australia, 	Rockhampton</string>
+	<string>Australia, Mackay</string>
+	<string>Australia, Bundaberg</string>
+	<string>Australia, Hervey Bay</string>
+	<string>Australia, Gladstone</string>
+	<string>Australia, Adelaide</string>
+	<string>Australia, Mount Gambier</string>
+	<string>Australia, Hobart</string>
+	<string>Australia, Launceston</string>
+	<string>Australia, Geelong</string>
+	<string>Australia, Ballarat</string>
+	<string>Australia, Bendigo</string>
+	<string>Australia, Shepparton</string>
+	<string>Australia, Melton</string>
+	<string>Australia, Mildura</string>
+	<string>Australia, Warrnambool</string>
+	<string>Australia, Perth</string>
+	<string>Australia, Sunbury</string>
+	<string>Australia, Rockingham</string>
+	<string>Australia, Mandurah</string>
+	<string>Australia, Bunbury</string>
+	<string>Australia, Kalgoorlie</string>
+	<string>Australia, Geraldton</string>
+	<string>Australia, Albany</string>
+	<string>USA, Alabama</string>
+	<string>USA, Alaska</string>
+	<string>USA, Arizona</string>
+	<string>USA, Arkansas</string>
+	<string>USA, California</string>
+	<string>USA, Colorado</string>
+	<string>USA, Connecticut</string>
+	<string>USA, Delaware</string>
+	<string>USA, Florida</string>
+	<string>USA, Georgia</string>
+	<string>USA, Hawaii</string>
+	<string>USA, Idaho</string>
+	<string>USA, Illinois</string>
+	<string>USA, Indiana</string>
+	<string>USA, Iowa</string>
+	<string>USA, Kansas</string>
+	<string>USA, Kentucky</string>
+	<string>USA, Louisiana</string>
+	<string>USA, Maine</string>
+	<string>USA, Maryland</string>
+	<string>USA, Massachusetts</string>
+	<string>USA, Michigan</string>
+	<string>USA, Minnesota</string>
+	<string>USA, Mississippi</string>
+	<string>USA, Missouri</string>
+	<string>USA, Montana</string>
+	<string>USA, Nebraska</string>
+	<string>USA, Nevada</string>
+	<string>USA, New Hampshire</string>
+	<string>USA, New Jersey</string>
+	<string>USA, New Mexico</string>
+	<string>USA, New York</string>
+	<string>USA, North Carolina</string>
+	<string>USA, North Dakota</string>
+	<string>USA, Ohio</string>
+	<string>USA, Oklahoma</string>
+	<string>USA, Oregon</string>
+	<string>USA, Pennsylvania</string>
+	<string>USA, Rhode Island</string>
+	<string>USA, South Carolina</string>
+	<string>USA, South Dakota</string>
+	<string>USA, Tennessee</string>
+	<string>USA, Texas</string>
+	<string>USA, Utah</string>
+	<string>USA, Vermont</string>
+	<string>USA, Virginia</string>
+	<string>USA, Washington</string>
+	<string>USA, West Virginia</string>
+	<string>USA, Wisconsin</string>
+	<string>USA, Wyoming</string>
+	<string>New Zealand, Auckland</string>
+	<string>New Zealand, Wellington</string>
+	<string>New Zealand, Hamilton</string>
+	<string>New Zealand, Tauranga</string>
+	<string>New Zealand, Palmerston North</string>
+	<string>New Zealand, Rotorua</string>
+	<string>New Zealand, Hastings</string>
+	<string>New Zealand, Napier</string>
+	<string>New Zealand, New Plymouth</string>
+	<string>New Zealand, Whangarei</string>
+	<string>New Zealand, Wanganui</string>
+	<string>New Zealand, Taupo</string>
+	<string>New Zealand, Ruapehu</string>
+	<string>New Zealand, Christchurch</string>
+	<string>New Zealand, Dunedin</string>
+	<string>New Zealand, Nelson</string>
+	<string>New Zealand, Invercargill</string>
+	<string>New Zealand, Blenheim</string>
+	<string>New Zealand, Queenstown</string>
+	<string>New Zealand, Greymouth</string>
+	<string>New Zealand, Wanaka</string>
+	<string>New Zealand, Cromwell</string>
+	<string>New Zealand, Kaikoura</string>
+	<string>New Zealand, Mount Cook Village</string>
+</array>
+</plist>

@@ -1,0 +1,24 @@
+//
+//  UserFBLoginInfo.h
+//  GMRmobile
+//
+//  Created by   on 13/11/13.
+//  Copyright (c) 2013 Poise Interactive. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+
+@interface UserFBLoginInfoObject : NSObject
+
+@property (nonatomic, retain) NSString * facebook_id;
+@property (nonatomic, retain) NSNumber * fb_login_id;
+@property (nonatomic, retain) NSString * user_cover_photo;
+@property (nonatomic, retain) NSString * user_complete_name;
+@property (nonatomic, retain) NSString * location;
+@property (nonatomic, retain) NSString * user_image_url;
+
+
+-(NSString*)ToJSONWithID:(BOOL)addID;
+
+@end

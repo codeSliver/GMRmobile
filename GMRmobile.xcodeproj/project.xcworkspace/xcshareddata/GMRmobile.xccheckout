@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>31997724-562C-40BA-A3AF-5BAAF1248502</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GMRmobile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C0D9518B-49E6-4C67-A3B6-C6CFD663B91E</key>
+		<string>https://subversion.assembla.com/svn/moviereviewproject</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/GMRmobile/GMRmobile.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C0D9518B-49E6-4C67-A3B6-C6CFD663B91E</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>C0D9518B-49E6-4C67-A3B6-C6CFD663B91E</key>
+		<string>https://subversion.assembla.com/svn/moviereviewproject</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://subversion.assembla.com/svn/moviereviewproject/trunk/GMRmobile/GMRmobile.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0D9518B-49E6-4C67-A3B6-C6CFD663B91E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0D9518B-49E6-4C67-A3B6-C6CFD663B91E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>moviereviewproject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

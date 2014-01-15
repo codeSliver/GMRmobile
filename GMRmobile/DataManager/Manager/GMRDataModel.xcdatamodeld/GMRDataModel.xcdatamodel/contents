@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MovieBasicInfo" representedClassName="MovieBasicInfo" syncable="YES">
+        <attribute name="date_modified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="movie_cast" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_comments_count" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="movie_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_detailed_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="movie_genre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_groups_count" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="movie_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="movie_image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_popularity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_priority" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="movie_rating" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="movie_released_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_rt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="MovieDetailedInfo" representedClassName="MovieDetailedInfo" syncable="YES">
+        <attribute name="date_modified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="movie_detailed_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="movie_facebook_link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_twitter_link" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MovieRateInfo" representedClassName="MovieRateInfo" syncable="YES">
+        <attribute name="movie_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="movie_rate_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="movie_rating" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UserAccount" representedClassName="UserAccount" syncable="YES">
+        <attribute name="detailed_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="login_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="login_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="login_type_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UserContactsInfo" representedClassName="UserContactsInfo" syncable="YES">
+        <attribute name="contacts_list" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorite_contacts_list" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_contact_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UserFBLoginInfo" representedClassName="UserFBLoginInfo" syncable="YES">
+        <attribute name="facebook_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fb_login_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_complete_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_cover_photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_image_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserFeedMovie" representedClassName="UserFeedMovie" syncable="YES">
+        <attribute name="date_modified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="feed_comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="feed_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="movie_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UserLoginInfo" representedClassName="UserLoginInfo" syncable="YES">
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="login_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_complete_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_cover_photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserRequestMovie" representedClassName="UserRequestMovie" syncable="YES">
+        <attribute name="requested_users_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_request_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UserSuggestMovie" representedClassName="UserSuggestMovie" syncable="YES">
+        <attribute name="movie_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="suggested_users_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_suggest_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MovieBasicInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MovieDetailedInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MovieRateInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="UserAccount" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="UserContactsInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="UserFBLoginInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="UserFeedMovie" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="UserLoginInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="UserRequestMovie" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="UserSuggestMovie" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

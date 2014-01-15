@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GMRSettingsViewController">
+            <connections>
+                <outlet property="emailFieldView" destination="2tq-UA-VQy" id="9Uu-1R-si2"/>
+                <outlet property="imageButton" destination="7AZ-Dg-YlL" id="6mT-ts-ccF"/>
+                <outlet property="locationFieldView" destination="n5F-hg-0Eh" id="AHH-3Z-Ky5"/>
+                <outlet property="nameFieldView" destination="9UJ-Xe-aZ5" id="jjn-tO-9zC"/>
+                <outlet property="passwordFieldView" destination="TWE-f7-dFS" id="5GF-Uo-3Zr"/>
+                <outlet property="regImageView" destination="Jua-8S-3Jn" id="raT-Mm-7tR"/>
+                <outlet property="saveButton" destination="bnh-pz-gtJ" id="aeR-C6-DKA"/>
+                <outlet property="topBackgroundImgView" destination="KZD-5A-DEb" id="uQH-wh-TEa"/>
+                <outlet property="userImageView" destination="TH6-rB-qe2" id="s93-Ck-zdZ"/>
+                <outlet property="userNameFieldView" destination="qsy-L8-2tv" id="OBD-53-6at"/>
+                <outlet property="view" destination="1" id="nGE-VJ-gNm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KZD-5A-DEb">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="205"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.99607843137254903" green="0.76078431372549016" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="registration-flds.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jua-8S-3Jn">
+                    <rect key="frame" x="40" y="252" width="240" height="161"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfz-HT-NUD">
+                    <rect key="frame" x="285" y="170" width="16" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="add-background.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7AZ-Dg-YlL">
+                    <rect key="frame" x="91" y="34" width="138" height="138"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="add-img.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="imageSelectPressed:" destination="-1" eventType="touchUpInside" id="wuT-Yq-7Ze"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TH6-rB-qe2">
+                    <rect key="frame" x="91" y="34" width="138" height="138"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9UJ-Xe-aZ5">
+                    <rect key="frame" x="40" y="220" width="240" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n5F-hg-0Eh">
+                    <rect key="frame" x="71" y="264" width="209" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qsy-L8-2tv">
+                    <rect key="frame" x="71" y="304" width="209" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TWE-f7-dFS">
+                    <rect key="frame" x="71" y="344" width="209" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2tq-UA-VQy">
+                    <rect key="frame" x="71" y="383" width="209" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnh-pz-gtJ">
+                    <rect key="frame" x="40" y="448" width="240" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98431372549999996" green="0.7725490196" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="dO3-4g-dJT"/>
+                        <constraint firstAttribute="height" constant="40" id="jP8-fj-srI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <state key="normal" image="updatebutton.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="saveButtonPressed:" destination="-1" eventType="touchUpInside" id="tTk-RB-OZW"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="n5F-hg-0Eh" firstAttribute="top" secondItem="9UJ-Xe-aZ5" secondAttribute="bottom" constant="15" id="FMq-nQ-guB"/>
+                <constraint firstItem="2tq-UA-VQy" firstAttribute="top" secondItem="TWE-f7-dFS" secondAttribute="bottom" constant="14" id="KDt-0i-Ybt"/>
+                <constraint firstItem="bnh-pz-gtJ" firstAttribute="top" secondItem="Jua-8S-3Jn" secondAttribute="bottom" constant="35" id="TNf-4l-co7"/>
+                <constraint firstItem="qsy-L8-2tv" firstAttribute="top" secondItem="n5F-hg-0Eh" secondAttribute="bottom" constant="15" id="WhD-XQ-Ujm"/>
+                <constraint firstItem="TWE-f7-dFS" firstAttribute="top" secondItem="qsy-L8-2tv" secondAttribute="bottom" constant="15" id="Zdw-KE-JLa"/>
+                <constraint firstItem="KZD-5A-DEb" firstAttribute="top" secondItem="1" secondAttribute="top" id="eNn-rs-fzh"/>
+                <constraint firstItem="9UJ-Xe-aZ5" firstAttribute="top" secondItem="KZD-5A-DEb" secondAttribute="bottom" constant="15" id="rry-aa-7Tp"/>
+                <constraint firstItem="KZD-5A-DEb" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="tLr-Y4-2fp"/>
+                <constraint firstItem="Jua-8S-3Jn" firstAttribute="top" secondItem="9UJ-Xe-aZ5" secondAttribute="bottom" constant="3" id="w4d-qr-8Yo"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add-background.png" width="16" height="16"/>
+        <image name="add-img.png" width="138" height="138"/>
+        <image name="registration-flds.png" width="240" height="161"/>
+        <image name="updatebutton.png" width="240" height="40"/>
+    </resources>
+</document>

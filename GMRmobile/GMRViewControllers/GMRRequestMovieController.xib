@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GMRRequestMovieController">
+            <connections>
+                <outlet property="addFriendTableView" destination="mpq-Qi-UDw" id="7Zz-C7-rFB"/>
+                <outlet property="addNewFriendButton" destination="mVb-Ov-Cn6" id="tuj-vN-Ppd"/>
+                <outlet property="addNewFriendView" destination="dyM-eI-RMo" id="3Xm-EO-1Ul"/>
+                <outlet property="titleView" destination="08d-rU-z7Y" id="Jwg-mb-aKe"/>
+                <outlet property="userTableView" destination="kDp-dd-usO" id="eDd-nW-NY5"/>
+                <outlet property="userTextField" destination="AYO-uL-gzb" id="fOf-N2-856"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FTx-dP-kOf">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="wIp-qp-odc">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-Ov-Cn6">
+                            <rect key="frame" x="89" y="242" width="24" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" image="add-new-friend.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="addFriendButton:" destination="-1" eventType="touchUpInside" id="WyV-xh-ZJ3"/>
+                            </connections>
+                        </button>
+                        <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dyM-eI-RMo">
+                            <rect key="frame" x="121" y="242" width="111" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="08d-rU-z7Y">
+                            <rect key="frame" x="15" y="163" width="290" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="suggest_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="151-WJ-VoB">
+                            <rect key="frame" x="102" y="30" width="116" height="117"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="search-fld.png" translatesAutoresizingMaskIntoConstraints="NO" id="1QW-ED-NFu">
+                            <rect key="frame" x="40" y="208" width="240" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="start typing friends name..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AYO-uL-gzb">
+                            <rect key="frame" x="66" y="205" width="199" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="OFd-pD-g1z"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSI-sh-z6h">
+                            <rect key="frame" x="40" y="450" width="240" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" image="suggest-send.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sendButtonPressed:" destination="-1" eventType="touchUpInside" id="Zbx-VL-aym"/>
+                            </connections>
+                        </button>
+                        <tableView hidden="YES" clipsSubviews="YES" tag="3" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="mpq-Qi-UDw">
+                            <rect key="frame" x="40" y="274" width="240" height="173"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </tableView>
+                        <tableView hidden="YES" clipsSubviews="YES" tag="2" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="kDp-dd-usO">
+                            <rect key="frame" x="0.0" y="238" width="320" height="209"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="RSI-sh-z6h" secondAttribute="bottom" constant="25" id="0Xh-hk-eNe"/>
+                        <constraint firstItem="151-WJ-VoB" firstAttribute="top" secondItem="FTx-dP-kOf" secondAttribute="top" constant="30" id="4Oq-NO-sHK"/>
+                        <constraint firstItem="kDp-dd-usO" firstAttribute="top" secondItem="AYO-uL-gzb" secondAttribute="bottom" constant="20" id="5qc-Vh-CaN"/>
+                        <constraint firstItem="dyM-eI-RMo" firstAttribute="top" secondItem="AYO-uL-gzb" secondAttribute="bottom" constant="7" id="9Z6-1p-dXj"/>
+                        <constraint firstItem="08d-rU-z7Y" firstAttribute="top" secondItem="151-WJ-VoB" secondAttribute="bottom" constant="16" id="BCM-Bp-swj"/>
+                        <constraint firstAttribute="bottom" secondItem="kDp-dd-usO" secondAttribute="bottom" id="JCD-7i-ibY"/>
+                        <constraint firstItem="mVb-Ov-Cn6" firstAttribute="top" secondItem="AYO-uL-gzb" secondAttribute="bottom" constant="7" id="P3J-O9-UPV"/>
+                        <constraint firstItem="kDp-dd-usO" firstAttribute="top" secondItem="AYO-uL-gzb" secondAttribute="bottom" constant="20" id="RgK-bq-fHH"/>
+                        <constraint firstItem="mpq-Qi-UDw" firstAttribute="top" secondItem="dyM-eI-RMo" secondAttribute="bottom" constant="8" id="W2e-eD-LJc"/>
+                        <constraint firstItem="RSI-sh-z6h" firstAttribute="top" secondItem="mpq-Qi-UDw" secondAttribute="bottom" constant="30" id="v2u-Bz-EHH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FTx-dP-kOf" firstAttribute="top" secondItem="1" secondAttribute="top" id="jpM-Pg-Vew"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add-new-friend.png" width="24" height="24"/>
+        <image name="background-yellow.png" width="320" height="568"/>
+        <image name="search-fld.png" width="240" height="24"/>
+        <image name="suggest-send.png" width="240" height="40"/>
+        <image name="suggest_logo.png" width="116" height="117"/>
+    </resources>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="GMRDrawerTableViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="GMRDrawerTableViewCell" id="M2T-3c-pf0" customClass="GMRDrawerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M2T-3c-pf0" id="o1y-5c-MFq">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p8o-zO-ohi">
+                        <rect key="frame" x="0.0" y="0.0" width="286" height="43"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kRm-vG-ob6">
+                        <rect key="frame" x="15" y="14" width="16" height="16"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="bgC-9b-SlC"/>
+                            <constraint firstAttribute="width" constant="16" id="v70-Bv-XhC"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vPv-0E-k1z">
+                        <rect key="frame" x="59" y="11" width="160" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdI-OD-Aer">
+                        <rect key="frame" x="235" y="2" width="39" height="39"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" image="alert.png"/>
+                        <connections>
+                            <action selector="alertPressed:" destination="M2T-3c-pf0" eventType="touchUpInside" id="fwy-QX-3ae"/>
+                        </connections>
+                    </button>
+                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTl-Uz-xJf">
+                        <rect key="frame" x="242" y="11" width="25" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="kRm-vG-ob6" firstAttribute="leading" secondItem="o1y-5c-MFq" secondAttribute="leading" constant="15" id="m9R-Vo-0bE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.17254901960784313" green="0.17254901960784313" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="alertButton" destination="jdI-OD-Aer" id="pqy-6h-AEs"/>
+                <outlet property="alertLabel" destination="jTl-Uz-xJf" id="qp1-gK-uvH"/>
+                <outlet property="backgroundImageView" destination="p8o-zO-ohi" id="6qo-su-90S"/>
+                <outlet property="logoView" destination="kRm-vG-ob6" id="KRX-4q-fB3"/>
+                <outlet property="titleViewLabel" destination="vPv-0E-k1z" id="tpT-x2-0s3"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="alert.png" width="39" height="39"/>
+    </resources>
+</document>
